@@ -15,6 +15,10 @@ html, body{
   background-position: center;
 }header h1{
   text-shadow: 1px 1px 1px #000;
+}.top-logo{
+  height: 90px;
+  width: auto;
+  filter: brightness(100);
 }header ul{
   border-radius: .25rem;
 }.headline{
@@ -43,8 +47,8 @@ html, body{
   color:#fff;
 }.disclaimer{
   border: 1px solid #000;
-  padding: 15px;
-  max-width: 600px;
+  padding: 7px;
+  max-width: 400px;
   margin: 0 auto;
 }.connections{
   background-color: rgb(54, 54, 54);
@@ -52,4 +56,6 @@ html, body{
   color: #fff;
 }i{
   font-size: 1.6em;
+}footer p{
+  font-size: 1em;
 }
