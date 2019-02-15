@@ -10,24 +10,41 @@
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
+    <div class="pos-f-t mobile-bar">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <h4 class="text-white"><a class="text-white" href="https://secure.actblue.com/donate/gymforcc?refcode=website">Donate</a></h4>
+          <h4 class="text-white">Language</h4>
+          <span class="text-white">English</span><br>
+          <span class="text-muted">Spanish</span><br>
+          <span class="text-muted">Korean</span><br>
+          <span class="text-muted">Chinese</span>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <img class="other-logo" src="./img/Logo_trans22.png" alt="">
+      </nav>
+    </div>
     <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
-        <h1><img class="top-logo" src="./img/Logo_trans22.png" alt=""></h1>
-      
-        <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex btn-secondary">
-          <li class="nav-item dropdown">
-            <a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" id="bd-versions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                EN
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="bd-versions">
-              <a class="dropdown-item active" href="/docs/4.3/">SP</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="https://v4-alpha.getbootstrap.com/">KR</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="https://v4-alpha.getbootstrap.com/">CH</a>
-            </div>
-          </li>
-        </ul>
-      
+        <ul id="lang-sel" class="navbar-nav flex-row ml-md-auto d-md-flex btn-secondary">
+            <li class="nav-item dropdown">
+              <a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" id="bd-versions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  EN
+              </a>
+              <div class="dropdown-menu dropdown-menu-right">
+                <a class="dropdown-item active" href="#">SP</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">KR</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">CH</a>
+              </div>
+            </li>
+          </ul>  
+      <h1><img class="top-logo" src="./img/Logo_trans22.png" alt=""></h1>
+      <a id="donate" class="btn btn-danger d-lg-inline-block mb-3 mb-md-0 ml-md-3" href="https://secure.actblue.com/donate/gymforcc?refcode=website">Donate</a>
         <!--
         <div class="nav-item">
           <ul class="navbar-nav bd-navbar-nav flex-row">
@@ -52,8 +69,6 @@
           </ul>
         </div>
         -->
-      
-        <a class="btn btn-danger d-lg-inline-block mb-3 mb-md-0 ml-md-3" href="/docs/4.3/getting-started/download/">Donate</a>
     </header>
     <section id="splash">
         <h1 class="headline">
@@ -66,13 +81,13 @@
         <div class="spacer"></div>
         <form>
           <div class="row justify-content-center">
-            <div class="form-group col-md-4" style="padding-right:0px;">
+            <div class="form-group col-md-4 less-padding">
               <input type="text" class="form-control" placeholder="Email Address">
             </div>
-            <div class="form-group col-md-2">
+            <div class="form-group col-md-2 less-padding">
               <input type="text" class="form-control" placeholder="Zip code">
             </div>
-            <div class="form-group">
+            <div class="form-group less-padding">
               <button type="submit" class="btn btn-primary">JOIN TEAM HELEN!</button>
             </div>
           </div>
@@ -80,7 +95,7 @@
       </div>
     </section>
     <section>
-      <div class="flexer">
+      <div class="flexer photos">
         <img src="./img/helen1.jpg" alt="" class="blocks"><img src="./img/philly.jpg" alt="" class="blocks"><img src="./img/march.jpg" alt="" class="blocks">
       </div>
     </section>
@@ -88,33 +103,38 @@
       <div class="wrapper">
         <h1>Meet Helen Gym</h1>
         <div class="spacer"></div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora porro odio ipsum sint dolore autem maxime. Beatae, sapiente autem in illo eligendi corporis cupiditate. Praesentium temporibus assumenda dolor dolorem consequuntur?
-          Nisi nesciunt et iure pariatur cum sed est maiores sequi alias fuga porro provident architecto tempore odio explicabo, exercitationem fugiat assumenda recusandae enim ducimus rerum iusto vitae sint. Sed, rerum?
-          Perspiciatis, neque quo facilis autem delectus qui id dignissimos eum obcaecati. Repellat placeat labore voluptatibus accusantium explicabo eveniet qui dolorum voluptatem iusto saepe repudiandae tempore deserunt, distinctio et modi quaerat!
+        <p class="text-left"><img class="helen" src="./img/meethelen.jpg" alt="">
+          I’m a mother, a teacher, a community organizer, and our city’s loudest champion for quality public schools. I’m fighting for a Philadelphia that works for all of us.
+        <br><br>
+          Since the day I was elected, I’ve led a progressive agenda that’s moving our city forward: Local control of our schools. Every student having a nurse, counselor, access to water, and the arts. Millions of dollars to support homeless youth and tenants facing eviction. A Fair Workweek law that will protect more than 100,000 part-time workers. And I’m just getting started.
+        <br><br>
+            I’m running for City Council At-Large because Philadelphia needs a proven champion who won’t stop fighting for parents, families and working people everywhere. Together, let’s make 2019 our political moment. 
+        </p>
+        <p class="text-left">
+          &mdash; Helen
         </p>
       </div>
     </section>
     <section>
       <div class="flexer">
-        <div class="links" style="background-color: #99e2ff;"><h1>Give $25</h1></div>
-        <div class="links" style="background-color: #66d4ff;"><h1>Give $50</h1></div>
-        <div class="links" style="background-color: #00a4e6;"><h1>Give $250</h1></div>
-        <div class="links" style="background-color: #0076a3;"><h1>Other</h1></div>
+        <a href="https://secure.actblue.com/donate/gymforcc?refcode=website&amount=25"><div class="links" style="background-color: #99e2ff;"><h1>Give $25</h1></div></a>
+        <a href="https://secure.actblue.com/donate/gymforcc?refcode=website&amount=50"><div class="links" style="background-color: #66d4ff;"><h1>Give $50</h1></div></a>
+        <a href="https://secure.actblue.com/donate/gymforcc?refcode=website&amount=250"><div class="links" style="background-color: #00a4e6;"><h1>Give $250</h1></div></a>
+        <a href="https://secure.actblue.com/donate/gymforcc?refcode=website"><div class="links" style="background-color: #0076a3;"><h1>Other</h1></div></a>
       </div>
     </section>
     <section>
         <form class="connections">
-          <div class="row justify-content-center">
-            <label class="col-md-2 col-form-label" style="font-size: 1.2em;"><strong>STAY CONNECTED</strong></label>
-            <label class="col-md-1 col-form-label"><i class="fab fa-facebook-f"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fab fa-twitter"></i></label>
-            <div class="form-group col-md-3" style="padding-right:0px;">
+          <div class="row justify-content-center form-wrapper">
+            <label class="col-xl-3 col-form-label connect"><strong>STAY CONNECTED</strong></label>
+            <label class="col-xl-2 col-form-label social"><a class="text-white" href="https://www.facebook.com/CouncilmemberHelenGym/" target="_blank"><i class="fab fa-facebook-f"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="text-white" href="https://twitter.com/HelenGymAtLarge" target="_blank"><i class="fab fa-twitter"></i></a></label>
+            <div class="form-group col-lg-3 less-padding" >
               <input type="text" class="form-control" placeholder="Email Address">
             </div>
-            <div class="form-group col-md-2">
+            <div class="form-group col-lg-2 less-padding">
               <input type="text" class="form-control" placeholder="Zip code">
             </div>
-            <div class="form-group">
+            <div class="form-group less-padding">
               <button type="submit" class="btn btn-primary">VOLUNTEER!</button>
             </div>
           </div>

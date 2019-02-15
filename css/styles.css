@@ -19,6 +19,10 @@ html, body{
   height: 90px;
   width: auto;
   filter: brightness(100);
+}.other-logo{
+  height: 60px;
+  width: auto;
+  filter: brightness(100);
 }header ul{
   border-radius: .25rem;
 }.headline{
@@ -31,25 +35,31 @@ html, body{
   text-align: center;
 }p{
   font-size: 1.4em;
+}.wrapper p{
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }.spacer{
   padding: 15px 0px;
 }.blocks{
-  width:100%;
-  height: 100%;
+  width:33.3333333333334%;
+  height:33.3333333333334%;
 }.links{
-  width:25%;
+  width:100%;
   padding:30px 0px;
 }.flexer{
   display: flex;
   text-align: center;
+  background-color: #343a40;
 }.links h1{
   margin:0px;
   color:#fff;
 }.disclaimer{
   border: 1px solid #000;
-  padding: 7px;
-  max-width: 400px;
+  padding: 5px;
   margin: 0 auto;
+  max-width: 200px !important;
+  font-size: .7em;
 }.connections{
   background-color: rgb(54, 54, 54);
   padding-top: 16px;
@@ -58,4 +68,84 @@ html, body{
   font-size: 1.6em;
 }footer p{
   font-size: 1em;
+}.form-wrapper{
+  padding: 0px 45px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1100px;
+}.connect{
+  font-size: 1.2em;
+}.mobile-bar{
+  position: absolute;
+  width: 100%;
+  display: none;
+}.mobile-bar nav{
+  background-color: transparent !important;
+}#lang-sel{
+  margin-left: 0px !important;
+  margin-right: 16px;
+}#donate{
+  margin-left: auto !important;
+  padding: .35rem 1.65rem;
+    font-size: 1.2rem;
+}.flexer a{
+  width:25%;
+  transition: ease-in .2s;
+}.flexer a:hover{
+  text-decoration: none !important;
+  opacity: 0.9;
+}a i{
+  transition: ease-in .2s;
+}a i:hover{
+  opacity: 0.8;
+}.helen{
+  width: 215px;
+  float: left;
+  margin-right: 20px;
+}.less-padding{
+  padding:0px 8px !important;
+}
+
+@media only screen and (max-width: 1199px){
+  .connect{
+    padding-top: 0px;
+  }.social{
+    margin-bottom: 16px;
+  }
+}
+
+@media only screen and (max-width: 950px){
+  .headline{
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .wrapper{
+    padding:45px;
+  }.links h1{
+    font-size: 1em;
+  }.headline{
+    font-size: 1.5em;
+  }.mobile-bar{
+    display: block;
+  }header{
+    display:none !important;
+  }
+}
+
+@media only screen and (max-width: 575px){
+  .photos{
+    display: block;
+  }.blocks{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 455px){
+  .helen{
+    width: 100%;
+  }
 }
