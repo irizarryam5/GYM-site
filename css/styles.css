@@ -26,6 +26,10 @@ html, body{
   height: 60px;
   width: auto;
   filter: brightness(100);
+}.bottom-logo{
+  height: 90px;
+  width: auto;
+  filter: brightness(0);
 }header ul{
   border-radius: .25rem;
 }.headline{
@@ -91,7 +95,8 @@ html, body{
 }#donate{
   margin-left: auto !important;
   padding: .35rem 1.65rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  transform: scale(1.2);
 }.flexer a{
   width:25%;
   transition: ease-in .2s;
@@ -106,6 +111,7 @@ html, body{
   width: 215px;
   float: left;
   margin-right: 20px;
+  margin-top: 0.5em;
 }.less-padding{
   padding:0px 8px !important;
 }.btn-hln{
