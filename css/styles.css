@@ -15,6 +15,9 @@ html, body{
   background-position: center;
 }header h1{
   text-shadow: 1px 1px 1px #000;
+}.wrapper form{
+  margin: 0 auto;
+  max-width: 400px;
 }.top-logo{
   height: 90px;
   width: auto;
@@ -65,7 +68,7 @@ html, body{
   padding-top: 16px;
   color: #fff;
 }i{
-  font-size: 1.6em;
+  font-size: 1.1em;
 }footer p{
   font-size: 1em;
 }.form-wrapper{
@@ -75,6 +78,7 @@ html, body{
   max-width: 1100px;
 }.connect{
   font-size: 1.2em;
+  text-align: left;
 }.mobile-bar{
   position: absolute;
   width: 100%;
@@ -87,7 +91,7 @@ html, body{
 }#donate{
   margin-left: auto !important;
   padding: .35rem 1.65rem;
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }.flexer a{
   width:25%;
   transition: ease-in .2s;
@@ -104,11 +108,15 @@ html, body{
   margin-right: 20px;
 }.less-padding{
   padding:0px 8px !important;
+}.btn-hln{
+  width: 100%;
+
 }
 
 @media only screen and (max-width: 1199px){
   .connect{
     padding-top: 0px;
+    text-align: center;
   }.social{
     margin-bottom: 16px;
   }
