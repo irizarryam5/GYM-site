@@ -10,9 +10,10 @@ html, body{
   padding: 8px 100px !important;
 }#splash{
   height: 600px;
-  background-image: url("../img/splash3.jpg");
+  background-image: url("../img/splash4.jpg");
   background-size: cover;
-  background-position: center;
+  background-position-x: left;
+  background-position-y: center;
 }header h1{
   text-shadow: 1px 1px 1px #000;
 }.wrapper form{
@@ -93,7 +94,12 @@ html, body{
   margin-left: 0px !important;
   margin-right: 16px;
 }#donate{
-  margin-left: auto !important;
+  /*margin-left: auto !important;*/
+  padding: .35rem 1.65rem;
+  font-size: 1rem;
+  transform: scale(1.2);
+}#join{
+  margin-left: 2rem !important;
   padding: .35rem 1.65rem;
   font-size: 1rem;
   transform: scale(1.2);
@@ -116,7 +122,8 @@ html, body{
   padding:0px 8px !important;
 }.btn-hln{
   width: 100%;
-
+}.nav-btn-wrapper{
+  margin-left: auto;
 }
 
 @media only screen and (max-width: 1199px){
@@ -134,7 +141,16 @@ html, body{
   }
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 830px){
+  #donate{
+    transform: scale(0.8);
+  }#join{
+    transform: scale(0.8);
+    margin-left: -1rem !important;
+  }
+}
+
+@media only screen and (max-width: 768px){
   .wrapper{
     padding:45px;
   }.links h1{
