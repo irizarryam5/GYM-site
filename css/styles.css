@@ -20,27 +20,26 @@ html, body{
   margin: 0 auto;
   max-width: 400px;
 }.top-logo{
-  height: 90px;
+  height: 70px;
   width: auto;
-  filter: brightness(100);
 }.other-logo{
   height: 60px;
   width: auto;
-  filter: brightness(100);
 }.bottom-logo{
   height: 90px;
   width: auto;
-  filter: brightness(0);
 }header ul{
   border-radius: .25rem;
-}.headline{
-  color:#fff;
-  text-align: center;
-  text-shadow: 1px 1px 1px #000;
-  padding-top:525px;
 }.wrapper{
   padding: 45px 100px;
   text-align: center;
+}.splash-wrapper{
+  padding: 224.5px 100px;
+  text-align: center;
+  color: #fff;
+}.splash-tile{
+  width:50%;
+  margin-left:auto;
 }p{
   font-size: 1.4em;
 }.wrapper p{
@@ -124,6 +123,12 @@ html, body{
   width: 100%;
 }.nav-btn-wrapper{
   margin-left: auto;
+}.margin-none{
+  margin: 0px;
+}#mobile-splash-content{
+  background-color: #000;
+  color: #fff;
+  display: none;
 }
 
 @media only screen and (max-width: 1199px){
@@ -132,13 +137,15 @@ html, body{
     text-align: center;
   }.social{
     margin-bottom: 16px;
+  }#mobile-splash-content{
+    display: block;
+  }.splash-tile{
+    display: none;
   }
 }
 
 @media only screen and (max-width: 950px){
-  .headline{
-    font-size: 2em;
-  }#splash{
+  #splash{
     background-position-y: center;
   }
 }
@@ -157,8 +164,6 @@ html, body{
     padding:45px;
   }.links h1{
     font-size: 1em;
-  }.headline{
-    font-size: 1.5em;
   }.mobile-bar{
     display: block;
   }header{
