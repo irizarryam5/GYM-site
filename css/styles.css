@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
 html, body{
   padding: 0px;
   margin: 0px;
@@ -129,6 +131,8 @@ html, body{
   background-color: #000;
   color: #fff;
   display: none;
+}.sig{
+  font-family: 'Great Vibes', cursive;
 }
 
 @media only screen and (max-width: 1199px){
