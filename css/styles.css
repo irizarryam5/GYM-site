@@ -98,7 +98,7 @@ html, body{
   /*margin-left: auto !important;*/
   padding: .35rem 1.65rem;
   font-size: 1rem;
-  transform: scale(1.2);
+  /*transform: scale(1.2);*/
 }.flexer a{
   width:25%;
   transition: ease-in .2s;
