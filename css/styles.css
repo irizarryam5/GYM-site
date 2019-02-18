@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Niconne');
 
 html, body{
   padding: 0px;
@@ -99,11 +99,6 @@ html, body{
   padding: .35rem 1.65rem;
   font-size: 1rem;
   transform: scale(1.2);
-}#join{
-  margin-left: 2rem !important;
-  padding: .35rem 1.65rem;
-  font-size: 1rem;
-  transform: scale(1.2);
 }.flexer a{
   width:25%;
   transition: ease-in .2s;
@@ -132,7 +127,8 @@ html, body{
   color: #fff;
   display: none;
 }.sig{
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Niconne', cursive;
+  font-size: 2rem;
 }
 
 @media only screen and (max-width: 1199px){
@@ -154,14 +150,11 @@ html, body{
   }
 }
 
-@media only screen and (max-width: 830px){
+/*@media only screen and (max-width: 830px){
   #donate{
     transform: scale(0.8);
-  }#join{
-    transform: scale(0.8);
-    margin-left: -1rem !important;
   }
-}
+}*/
 
 @media only screen and (max-width: 768px){
   .wrapper{
