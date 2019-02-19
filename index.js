@@ -1,12 +1,6 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const http = require('http');
-const enforce = require('express-sslify');
-
-//app.use(enforce.HTTPS({ trustProtoHeader: true }));
-//app.use(enforce.HTTPS({ trustXForwardedHostHeader: true }))
-//app.use(enforce.HTTPS());
 
 let port = process.env.PORT || 8080;
 
