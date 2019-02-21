@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Niconne');
-
 html, body{
   padding: 0px;
   margin: 0px;
@@ -144,9 +142,8 @@ html, body{
   background-color: #000;
   color: #fff;
   display: none;
-}.sig{
-  font-family: 'Niconne', cursive;
-  font-size: 2rem;
+}#sig{
+  height: 36px;
 }
 
 @media only screen and (max-width: 1440px){
