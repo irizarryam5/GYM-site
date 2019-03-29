@@ -20,13 +20,13 @@ html, body{
   margin: 0 auto;
   max-width: 400px;
 }.top-logo{
-  height: 70px;
+  height: 130px;
   width: auto;
 }.other-logo{
-  height: 60px;
+  height: 100px;
   width: auto;
 }.bottom-logo{
-  height: 60px;
+  height: 100px;
   width: auto;
 }header ul{
   border-radius: .25rem;
