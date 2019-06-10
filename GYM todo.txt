@@ -1,8 +1,0 @@
-Website Tabs
-+Meet Helen
-+Issues
-+News
-+Media Tab(Campaign video?)
-
-//	Learn how to host WP on Heroku
-//	Learn how to develop WP themes
